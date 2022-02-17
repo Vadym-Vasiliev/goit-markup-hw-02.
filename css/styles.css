@@ -114,6 +114,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   font-family: inherit;
+  cursor: pointer;
 }
 
 /* основной контент */
@@ -155,3 +156,41 @@ a {
 }
 
 /* подвал */
+
+/* portfolio */
+
+/* Filter */
+
+.filter .filter-btn {
+  background-color: var(--fon-comand-color);
+  color: var(--primery-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.filter .filter-btn:hover,
+.filter .filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primery-fon-color);
+}
+
+/* projects */
+.projects .title {
+  color: var(--primery-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-section .text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
