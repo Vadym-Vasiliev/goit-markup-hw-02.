@@ -119,20 +119,18 @@ a {
 
 /* основной контент */
 
-.peculiarities .title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-
 .section .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+}
+
+.peculiarities .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .section .text {
