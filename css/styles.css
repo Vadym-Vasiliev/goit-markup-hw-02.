@@ -6,6 +6,7 @@
 /* акцент #2196F3 */
 /* цвет лого #000000 */
 /* цвет текста героя #ffffff */
+/* цвет текста лого футера #ffffff */
 
 :root {
   --primery-fon-color: #ffffff;
@@ -16,6 +17,7 @@
   --accent-color: #2196f3;
   --color-logo: #000000;
   --color-text-hero: #ffffff;
+  --color-text-logo-footer: #ffffff;
 }
 
 body {
@@ -154,6 +156,32 @@ a {
 }
 
 /* подвал */
+
+.footer {
+  background-color: var(--secondry-fon-color);
+}
+
+.footer .logo {
+  color: var(--color-text-logo-footer);
+}
+
+.address-text {
+  color: var(--color-text-logo-footer);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.auth-foot {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 
 /* portfolio */
 
