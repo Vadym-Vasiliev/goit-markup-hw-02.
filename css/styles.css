@@ -191,6 +191,7 @@ a {
   background-color: var(--fon-comand-color);
   color: var(--primery-text-color);
 
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
